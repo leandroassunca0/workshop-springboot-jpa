@@ -6,6 +6,6 @@ import com.educandoweb.course.entities.Category;
 import com.educandoweb.course.entities.Product;
 
 
-public interface CategoryRepository extends JpaRepository<Category, Long>{
+public interface ProductRepository extends JpaRepository<Product, Long>{
 	
 }
